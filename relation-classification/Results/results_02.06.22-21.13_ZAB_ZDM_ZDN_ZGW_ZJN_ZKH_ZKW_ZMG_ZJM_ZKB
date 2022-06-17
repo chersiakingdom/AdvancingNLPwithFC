@@ -1,0 +1,227 @@
+DATASET=zuco_nr_cleanphrases
+
+LOGTOSTDERR=False
+ALSOLOGTOSTDERR=False
+LOG_DIR=
+V=-1
+VERBOSITY=-1
+LOGGER_LEVELS={}
+STDERRTHRESHOLD=fatal
+SHOWPREFIXFORINFO=True
+RUN_WITH_PDB=False
+PDB_POST_MORTEM=False
+PDB=False
+RUN_WITH_PROFILING=False
+PROFILE_FILE=None
+USE_CPROFILE_FOR_PROFILING=True
+ONLY_CHECK_ARGS=False
+OP_CONVERSION_FALLBACK_TO_WHILE_LOOP=False
+TEST_SRCDIR=
+TEST_TMPDIR=/tmp/absl_testing
+TEST_RANDOM_SEED=301
+TEST_RANDOMIZE_ORDERING_SEED=
+XML_OUTPUT_FILE=
+ENABLE_WORD_EMBEDDINGS=True
+EMBEDDING_DIM=128
+FILTER_SIZES=2,3,4,5,6,7
+NUM_FILTERS=192
+DROPOUT_KEEP_PROB=0.5
+LEARNING_RATE=0.01
+L2_REG_LAMBDA=0.5
+LSTM_UNITS=600
+ENSEMBLE_SIZE=20
+REL_POS_EMBEDDING_SIZE=20
+POS_TAGS_EMBEDDING_SIZE=30
+ET_EMBEDDING_DIMENSION=20
+BATCH_SIZE=32
+NUM_EPOCHS_RNN=200
+NUM_EPOCHS_CNN=10
+EVALUATE_EVERY=100
+ALLOW_SOFT_PLACEMENT=True
+LOG_DEVICE_PLACEMENT=False
+DECAY_COEFFICIENT=2.5
+ET CONFIG:  binned:  False 
+data from subjects:  ['ZAB', 'ZDM', 'ZDN', 'ZGW', 'ZJN', 'ZKH', 'ZKW', 'ZMG', 'ZJM', 'ZKB'] 
+
+
+EEG CONFIG:  RAW_NORMALIZED_FEATURES 
+data from subjects:  ['ZAB', 'ZDM', 'ZDN', 'ZGW', 'ZJN', 'ZKH', 'ZKW', 'ZMG', 'ZJM', 'ZKB']
+
+
+fold 1: 0.7321428571428571 0.7038961038961039 0.582774266731486 0.5996084848322395
+
+Evaluation per class for fold 1 (please do NOT consider the averages for analysis):
+                      precision    recall  f1-score   support
+
+               AWARD       0.91      1.00      0.95        10
+           EDUCATION       1.00      0.80      0.89         5
+            EMPLOYER       1.00      0.42      0.59        12
+             FOUNDER       0.29      0.67      0.40         3
+            JOBTITLE       0.50      0.50      0.50         2
+         NATIONALITY       0.69      0.85      0.76        34
+POLITICALAFFILIATION       0.60      0.50      0.55         6
+             VISITED       1.00      0.25      0.40         4
+                WIFE       0.76      0.76      0.76        33
+          BIRTHPLACE       1.00      0.67      0.80         3
+          DEATHPLACE       0.00      0.00      0.00         0
+
+           micro avg       0.73      0.73      0.73       112
+           macro avg       0.70      0.58      0.60       112
+        weighted avg       0.78      0.73      0.73       112
+
+
+Confusion matrix for fold 1:
+[[10  0  0  0  0  0  0  0  0  0]
+ [ 1  4  0  0  0  0  0  0  0  0]
+ [ 0  0  5  2  0  1  0  0  4  0]
+ [ 0  0  0  2  0  1  0  0  0  0]
+ [ 0  0  0  0  1  0  0  0  1  0]
+ [ 0  0  0  2  0 29  1  0  2  0]
+ [ 0  0  0  0  0  3  3  0  0  0]
+ [ 0  0  0  1  0  1  0  1  1  0]
+ [ 0  0  0  0  1  6  1  0 25  0]
+ [ 0  0  0  0  0  1  0  0  0  2]]
+
+
+fold 2: 0.7387387387387387 0.6084802476106824 0.5889957264957264 0.5945034891490978
+
+Evaluation per class for fold 2 (please do NOT consider the averages for analysis):
+                      precision    recall  f1-score   support
+
+               AWARD       0.83      1.00      0.90        19
+           EDUCATION       1.00      1.00      1.00         4
+            EMPLOYER       0.60      0.50      0.55         6
+             FOUNDER       0.71      0.56      0.63         9
+            JOBTITLE       0.50      0.50      0.50         2
+         NATIONALITY       0.81      0.69      0.75        32
+POLITICALAFFILIATION       0.57      0.67      0.62         6
+             VISITED       0.00      0.00      0.00         2
+                WIFE       0.67      0.77      0.71        26
+          BIRTHPLACE       1.00      0.80      0.89         5
+          DEATHPLACE       0.00      0.00      0.00         0
+
+           micro avg       0.74      0.74      0.74       111
+           macro avg       0.61      0.59      0.59       111
+        weighted avg       0.74      0.74      0.74       111
+
+
+Confusion matrix for fold 2:
+[[19  0  0  0  0  0  0  0  0  0]
+ [ 0  4  0  0  0  0  0  0  0  0]
+ [ 0  0  3  0  0  0  0  0  3  0]
+ [ 0  0  0  5  0  2  0  0  2  0]
+ [ 0  0  0  0  1  1  0  0  0  0]
+ [ 1  0  1  1  0 22  3  2  2  0]
+ [ 0  0  1  0  0  0  4  0  1  0]
+ [ 1  0  0  0  0  0  0  0  1  0]
+ [ 2  0  0  1  1  2  0  0 20  0]
+ [ 0  0  0  0  0  0  0  0  1  4]]
+
+
+fold 3: 0.8108108108108109 0.6437988050891277 0.59815638906548 0.6043200449720482
+
+Evaluation per class for fold 3 (please do NOT consider the averages for analysis):
+                      precision    recall  f1-score   support
+
+               AWARD       0.86      1.00      0.92        12
+           EDUCATION       1.00      1.00      1.00         5
+            EMPLOYER       1.00      0.82      0.90        11
+             FOUNDER       0.50      0.17      0.25         6
+            JOBTITLE       0.00      0.00      0.00         3
+         NATIONALITY       0.77      0.92      0.84        26
+POLITICALAFFILIATION       1.00      0.54      0.70        13
+             VISITED       0.67      0.67      0.67         3
+                WIFE       0.78      0.97      0.87        30
+          BIRTHPLACE       0.50      0.50      0.50         2
+          DEATHPLACE       0.00      0.00      0.00         0
+
+           micro avg       0.81      0.81      0.81       111
+           macro avg       0.64      0.60      0.60       111
+        weighted avg       0.80      0.81      0.79       111
+
+
+Confusion matrix for fold 3:
+[[12  0  0  0  0  0  0  0  0  0]
+ [ 0  5  0  0  0  0  0  0  0  0]
+ [ 0  0  9  0  1  1  0  0  0  0]
+ [ 1  0  0  1  0  1  0  1  2  0]
+ [ 0  0  0  1  0  0  0  0  2  0]
+ [ 0  0  0  0  0 24  0  0  2  0]
+ [ 1  0  0  0  0  3  7  0  1  1]
+ [ 0  0  0  0  0  1  0  2  0  0]
+ [ 0  0  0  0  0  1  0  0 29  0]
+ [ 0  0  0  0  0  0  0  0  1  1]]
+
+
+fold 4: 0.6576576576576577 0.5574654104065869 0.4298513081121777 0.4535015095315199
+
+Evaluation per class for fold 4 (please do NOT consider the averages for analysis):
+                      precision    recall  f1-score   support
+
+               AWARD       1.00      0.91      0.95        22
+           EDUCATION       0.00      0.00      0.00         1
+            EMPLOYER       0.25      0.40      0.31         5
+             FOUNDER       0.17      0.17      0.17         6
+            JOBTITLE       1.00      0.20      0.33         5
+         NATIONALITY       0.74      0.76      0.75        33
+POLITICALAFFILIATION       0.44      0.57      0.50         7
+             VISITED       1.00      0.50      0.67         2
+                WIFE       0.54      0.65      0.59        23
+          BIRTHPLACE       1.00      0.57      0.73         7
+          DEATHPLACE       0.00      0.00      0.00         0
+
+           micro avg       0.66      0.66      0.66       111
+           macro avg       0.56      0.43      0.45       111
+        weighted avg       0.70      0.66      0.66       111
+
+
+Confusion matrix for fold 4:
+[[20  0  0  0  0  0  2  0  0  0]
+ [ 0  0  0  0  0  0  0  0  1  0]
+ [ 0  0  2  1  0  0  0  0  2  0]
+ [ 0  0  1  1  0  3  0  0  1  0]
+ [ 0  0  0  1  1  0  0  0  3  0]
+ [ 0  0  0  2  0 25  3  0  3  0]
+ [ 0  0  0  0  0  3  4  0  0  0]
+ [ 0  0  0  0  0  0  0  1  1  0]
+ [ 0  0  5  1  0  2  0  0 15  0]
+ [ 0  0  0  0  0  1  0  0  2  4]]
+
+
+fold 5: 0.7117117117117117 0.5858945492072427 0.5225087412587412 0.5362712688381137
+
+Evaluation per class for fold 5 (please do NOT consider the averages for analysis):
+                      precision    recall  f1-score   support
+
+               AWARD       0.92      0.85      0.88        13
+           EDUCATION       0.60      0.75      0.67         4
+            EMPLOYER       0.60      0.50      0.55         6
+             FOUNDER       0.75      0.30      0.43        10
+            JOBTITLE       0.00      0.00      0.00         2
+         NATIONALITY       0.62      0.81      0.70        26
+POLITICALAFFILIATION       1.00      0.70      0.82        10
+             VISITED       0.50      0.25      0.33         4
+                WIFE       0.71      0.84      0.77        32
+          BIRTHPLACE       0.75      0.75      0.75         4
+          DEATHPLACE       0.00      0.00      0.00         0
+
+           micro avg       0.71      0.71      0.71       111
+           macro avg       0.59      0.52      0.54       111
+        weighted avg       0.71      0.71      0.69       111
+
+
+Confusion matrix for fold 5:
+[[11  2  0  0  0  0  0  0  0  0]
+ [ 1  3  0  0  0  0  0  0  0  0]
+ [ 0  0  3  1  0  1  0  0  1  0]
+ [ 0  0  0  3  0  3  0  0  4  0]
+ [ 0  0  0  0  0  0  0  0  2  0]
+ [ 0  0  0  0  0 21  0  0  4  1]
+ [ 0  0  0  0  0  3  7  0  0  0]
+ [ 0  0  0  0  0  3  0  1  0  0]
+ [ 0  0  2  0  0  2  0  1 27  0]
+ [ 0  0  0  0  0  1  0  0  0  3]]
+
+ --- Final results, averaged over all networks and folds:
+
+average 0.7302123552123552 0.6199070232419487 0.5444572863327222 0.5576409594646038
