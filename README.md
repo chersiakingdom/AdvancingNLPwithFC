@@ -43,10 +43,15 @@ In addition to this code, you will need the following data:
 1. You will then need an environment with the following packages:
 
 h5py 2.7.1
+
 matplotlib 2.2.3
+
 mxnet 1.0.0.post2 
+
 nltk 3.3
+
 numpy 1.14.2
+
 pandas 0.20.3
 pip 18.0
 scikit-learn 0.19.0
@@ -64,12 +69,8 @@ wheel 0.30.0
 
 3. Now you can run all experiments via these three scripts:
 
-- run_features_model.py for the experiment on ZuCo data only.
+- run_features_model.py for the experiment on ZuCo data
   e.g. python3 run_features_model.py -we -et -eeg -b -s -opt
-- run_stts_embedding_experiment.py for the experiment on SST data with Cross-Validation.
-  e.g. python3 run_stts_embedding_experiment.py -we -et -eeg -b -s -opt
-- run_stts_embedding_experiment2.py for the experiment on SST data with the official train, dev and test division.
-  e.g. python3 run_stts_embedding_experiment2.py -we -et -eeg -b -s -opt
 
 The parameters for those runs are:
 -v if you want a verbose output
@@ -78,6 +79,6 @@ The parameters for those runs are:
 -et if you want eye-tracking to be used
 -eeg if you want eeg signal to be used
 -s if the data should be saved
--opt if optimized parameters should be added \
+-opt if optimized parameters should be added
 
 
