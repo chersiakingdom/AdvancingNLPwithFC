@@ -44,7 +44,8 @@ In addition to this code, you will need the following data:
 
 h5py 2.7.1
 matplotlib 2.2.3
-mxnet 1.0.0.post2 nltk 3.3
+mxnet 1.0.0.post2 
+nltk 3.3
 numpy 1.14.2
 pandas 0.20.3
 pip 18.0
