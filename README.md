@@ -84,11 +84,17 @@ wheel 0.30.0
 
 The parameters for those runs are:
 -v if you want a verbose output
+
 -b if you want the binary experiment
+
 -we if you want word embeddings to be used
+
 -et if you want eye-tracking to be used
+
 -eeg if you want eeg signal to be used
+
 -s if the data should be saved
+
 -opt if optimized parameters should be added
 
 
