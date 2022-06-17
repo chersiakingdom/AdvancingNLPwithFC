@@ -53,15 +53,25 @@ nltk 3.3
 numpy 1.14.2
 
 pandas 0.20.3
+
 pip 18.0
+
 scikit-learn 0.19.0
+
 scipy 0.19.1
+
 seaborn 0.9.0
+
 setuptools 39.0.1
+
 statsmodels 0.9.0
+
 tensorboard 1.7.0
+
 tensorflow 1.7.0
+
 tflearn 0.3.2
+
 wheel 0.30.0
 
 2. After setting up the environment and all the data, you will need to preprocess them to create the training data. To do that run python3 create_modeling_data.py from this directory.
