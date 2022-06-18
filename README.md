@@ -120,6 +120,6 @@ The parameters for those runs are:
 ### In File
 0. This code has been added to the base model(Sentiment & Relation classification), <p> but has not yet been uploaded to this repository.
 1. load mdl and set property
-2. load eeg & transpose EEG
+2. load & transpose EEG
 3. calculate fcg
 4. using mdl, encode fcg to brain_state
