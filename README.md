@@ -1,6 +1,6 @@
 # AdvancingNLPwithFC
 This repository is created as part of Kyunghee University Software Convergence Capstone Design. <p>
-and reference the code from the paper described below.
+and reference the code from the paper described below. <p>
 Nora Hollenstein, Maria Barrett, Marius Troendle, Francesco Bigiolli, Nicolas Langer & Ce Zhang. _Advancing NLP with Cognitive Language Processing Data_. 2019.
 https://arxiv.org/abs/1904.02682
 
