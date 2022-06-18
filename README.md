@@ -5,11 +5,11 @@ Nora Hollenstein, Maria Barrett, Marius Troendle, Francesco Bigiolli, Nicolas La
 https://arxiv.org/abs/1904.02682
 
 
-# Overall Data
+# 1. Overall Data
 The original Zurich Cognitive Language Processing Corpus (ZuCo) corpus can be found here: https://osf.io/q3zws/
 ! BE AWARE ! you need to download task1- SR/Matlab files, task2 - NR/Matlab files in 2018 version, not 2019.
 
-# Relation Classification
+# 2. Relation Classification
 ## Preprocessing
 ### Word embeddings
 Download the pre-trained "Glove embeddings" or train your own and put in 'embeddings/'
@@ -33,7 +33,7 @@ Python3, tensorflow, numpy, etc.
 CUDA_VISIBLE_DEVICES=1 python train_relext.py config.yml
 
 
-# Sentiment Analysis
+# 3. Sentiment Analysis
 ## Data
 In addition to this code, you will need the following data:
 - The Google 300 dimensional embeddings from https://github.com/mmihaltz/word2vec-GoogleNews-vectors. The embedding file must be placed in the folder embeddings/.
@@ -98,7 +98,7 @@ The parameters for those runs are:
 -opt if optimized parameters should be added
 
 
-# Dyconnmap
+# 4. Functional Connectivity and Brain state
 ## Processing steps
 ### In Jupyter
 1. load ALL subject's data
