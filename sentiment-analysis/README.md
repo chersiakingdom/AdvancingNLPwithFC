@@ -1,2 +1,2 @@
-- The results of the model are saved in the 'Results file' folder.
+- The results of the model will saved in the 'Results_files' folder. <p> and an example result file is included in it.
 - Set Configuration/new configs.py file according to your PC environment.
