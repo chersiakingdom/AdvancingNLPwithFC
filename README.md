@@ -36,7 +36,8 @@ CUDA_VISIBLE_DEVICES=1 python train_relext.py config.yml
 # 3. Sentiment Analysis
 ## Data
 In addition to this code, you will need the following data:
-- The Google 300 dimensional embeddings from https://github.com/mmihaltz/word2vec-GoogleNews-vectors. The embedding file must be placed in the folder embeddings/.
+- The Google 300 dimensional embeddings from https://github.com/mmihaltz/word2vec-GoogleNews-vectors. <p>
+ The embedding file must be placed in the folder embeddings/.
 - The ZuCo data in 2018 format. Those data must be placed in the Data_to_preprocess/ folder.
 
 ## Code
