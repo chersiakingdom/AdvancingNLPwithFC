@@ -1,2 +1,2 @@
 - An example result file is included in the Result file.
-- Set configs.yml file according to your PC environment.
+- Set config.yml file according to your PC environment.
