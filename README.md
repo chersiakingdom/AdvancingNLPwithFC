@@ -101,6 +101,7 @@ The parameters for those runs are:
 # 4. Functional Connectivity and Brain state
 ## Processing steps
 ### In Jupyter
+0. Please refer to this file: ZUCO_sentiment_analysis_FC.ipynb
 1. load ALL subject's data
 2. set fb, cc, fs, step, estimator
 3. seperate Pos, Neutral, Neg or Pos, Neg
@@ -112,7 +113,8 @@ The parameters for those runs are:
 9. Neg vs Pos result check (histogram, olotmatrix, markov_matrix, occupancy rate, etc.)
 
 ### In File
-10. load mdl and set property
-11. load eeg & transpose EEG
-12. calculate fcg
-13. using mdl, encode fcg to brain_state
+0. This code has been added to the base model(Sentiment & Relation classification), but has not yet been uploaded to this repository.
+1. load mdl and set property
+2. load eeg & transpose EEG
+3. calculate fcg
+4. using mdl, encode fcg to brain_state
