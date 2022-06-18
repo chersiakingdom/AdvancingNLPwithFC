@@ -1,12 +1,12 @@
 # AdvancingNLPwithFC
 This repository is created as part of Kyunghee University Software Convergence Capstone Design. <p>
-and referenced the code from the paper described below
+and reference the code from the paper described below.
 Nora Hollenstein, Maria Barrett, Marius Troendle, Francesco Bigiolli, Nicolas Langer & Ce Zhang. _Advancing NLP with Cognitive Language Processing Data_. 2019.
 https://arxiv.org/abs/1904.02682
 
 
 # 1. Overall Data
-The original Zurich Cognitive Language Processing Corpus (ZuCo) corpus can be found here: https://osf.io/q3zws/
+The original Zurich Cognitive Language Processing Corpus (ZuCo) corpus can be found here: https://osf.io/q3zws/ <p>
 ! BE AWARE ! you need to download task1- SR/Matlab files, task2 - NR/Matlab files in 2018 version, not 2019.
 
 # 2. Relation Classification
