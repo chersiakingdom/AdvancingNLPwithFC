@@ -98,3 +98,21 @@ The parameters for those runs are:
 -opt if optimized parameters should be added
 
 
+# Dyconnmap
+## Processing steps
+### In Jupyter
+1. load ALL subject's data
+2. set fb, cc, fs, step, estimator
+3. seperate Pos, Neutral, Neg or Pos, Neg
+4. fcg calculate (all subject & all words of sentences & all fixation)
+5. fcg stack
+6. fcgs -> neural gas fit (-> mdl // encoding, symbols)
+7. mdl save
+8. encode fcgs to brain_state
+9. Neg vs Pos result check (histogram, olotmatrix, markov_matrix, occupancy rate, etc.)
+
+### In File
+10. load mdl and set property
+11. load eeg & transpose EEG
+12. calculate fcg
+13. using mdl, encode fcg to brain_state
