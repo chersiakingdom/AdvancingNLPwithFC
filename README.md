@@ -113,7 +113,7 @@ The parameters for those runs are:
 9. Neg vs Pos result check (histogram, olotmatrix, markov_matrix, occupancy rate, etc.)
 
 ### In File
-0. This code has been added to the base model(Sentiment & Relation classification), but has not yet been uploaded to this repository.
+0. This code has been added to the base model(Sentiment & Relation classification), <p> but has not yet been uploaded to this repository.
 1. load mdl and set property
 2. load eeg & transpose EEG
 3. calculate fcg
