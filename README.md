@@ -104,7 +104,7 @@ The parameters for those runs are:
 ## Processing steps
 ### In Jupyter
 0. Please refer to this file: ZUCO_sentiment_analysis_FC.ipynb <p>
- and Dyconnmap paper : https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.25589 <p>,
+ and Dyconnmap paper : https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.25589, <p>
   Dyconnmap repository : https://github.com/makism/dyconnmap
  
 1. load ALL subject's data
