@@ -74,7 +74,8 @@ tflearn 0.3.2
 
 wheel 0.30.0
 
-2. After setting up the environment and all the data, you will need to preprocess them to create the training data. To do that run python3 create_modeling_data.py from this directory.
+2. After setting up the environment and all the data, you will need to preprocess them to create the training data. <p>
+ To do that run python3 create_modeling_data.py from this directory.
 
 
 3. Now you can run all experiments via these three scripts:
