@@ -1,1 +1,1 @@
-//
+- An example result file is included in the Result file.
