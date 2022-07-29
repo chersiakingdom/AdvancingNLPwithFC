@@ -16,6 +16,7 @@ Download the pre-trained "Glove embeddings" or train your own and put in 'embedd
 
 ### Part-of-speech tags (PoS tag)
  1. Download the Stanford CoreNLP. and run server (https://stanfordnlp.github.io/CoreNLP/download.html)
+ (https://github.com/stanfordnlp/CoreNLP)
  2. Use the script 'annotate_pos_tags.py' to generate the PoS tags.
  3. Move the new pos_tags.txt file into 'preprocessing/'
  
